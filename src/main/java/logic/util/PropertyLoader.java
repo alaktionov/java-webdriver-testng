@@ -1,4 +1,8 @@
-package maven-projects.util;
+package logic.util;
+
+import java.util.Properties;
+
+
 
 import java.io.IOException;
 import java.util.Properties;

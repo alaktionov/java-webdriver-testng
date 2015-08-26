@@ -1,7 +1,8 @@
-package maven-projects;
+package test;
 
 import java.util.concurrent.TimeUnit;
 
+import logic.util.PropertyLoader;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -11,7 +12,7 @@ import org.testng.annotations.BeforeClass;
 
 import ru.stqa.selenium.factory.WebDriverFactory;
 
-import maven-projects.util.PropertyLoader;
+import logic.util.PropertyLoader;
 
 /**
  * Base class for all the TestNG-based test classes
