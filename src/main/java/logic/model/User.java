@@ -4,27 +4,24 @@ package logic.model;
  * Created by alaktionov on 8/26/2015.
  */
 public class User {
-    private String firstName;
-    private String lastName;
+    private String email;
+    private String password;
 
-    public User(String firstName, String lastName) {
-        setFirstName(firstName);
-        setLastName(lastName);
+    public String getEmail() {
+        return email;
     }
 
-    public String getFirstName() {
-        return firstName;
+    public String getPassword() {
+        return password;
     }
 
-    public String getLastName() {
-        return lastName;
+    public User setEmail(String email) {
+        this.email = email;
+        return this;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public User setPassword(String password) {
+        this.password = password;
+        return this;
     }
 }

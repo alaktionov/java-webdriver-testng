@@ -2,3 +2,5 @@ test-output
 target
 .idea/workspace.xml
 *.class
+.idea/compiler.xml
+java-webdriver-testng.iml

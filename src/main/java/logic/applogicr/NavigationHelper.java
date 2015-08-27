@@ -1,16 +1,14 @@
 package logic.applogicr;
 
-import logic.applogici.ApplicationManager;
-import logic.applogici.NavigationHelper;
-import logic.model.User;
+import logic.applogici.NavigationHelperI;
 
 /**
  * Created by alaktionov on 31.10.2014.
  */
-public class NavigationHelperRealisation extends DriverBasedHelper implements NavigationHelper {
+public class NavigationHelper extends DriverBasedHelper implements NavigationHelperI {
 
 
-    public NavigationHelperRealisation(ApplicationManagerRealisation manager) {
+    public NavigationHelper(ApplicationManager manager) {
         super(manager.getWebDriver());
         this.baseURL = manager.getBaseUrl();
     }
